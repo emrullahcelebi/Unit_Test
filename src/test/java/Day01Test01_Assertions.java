@@ -34,9 +34,10 @@ public class Day01Test01_Assertions {
     public void testToplama(){
         int sayi1=10;
         int sayi2=5;
-        int anlikDeger=Math.addExact(sayi1,sayi2);
+        int anlikDeger=Math.addExact(sayi1,sayi2);//addExact 2 parametreleri toplayip donduruyor
         int beklenenDeger=15;
-        assertEquals(beklenenDeger,anlikDeger);
+        assertEquals(beklenenDeger,anlikDeger);//degerler esit mi diye kontrol ediyor
+                                                //esit ise kod gecer
     }
     //contains() test edelim
 

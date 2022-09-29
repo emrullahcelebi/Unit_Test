@@ -23,7 +23,7 @@ public class Day01Test05_TestingExceptions {
         int sayi1=1;
         int sayi2=0;
         //parent i da yazabiliriz : RuntimeException
-        assertThrows(RuntimeException.class,()->{//eger benim testim buradaki gibi bekledigim exc. i verirse kod gecer
+        assertThrows(ArithmeticException.class,()->{//eger benim testim buradaki gibi bekledigim exc. i verirse kod gecer
             System.out.println(sayi1/sayi2);
         });
    }

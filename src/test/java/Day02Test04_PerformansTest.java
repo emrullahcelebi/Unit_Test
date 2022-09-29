@@ -9,7 +9,7 @@ public class Day02Test04_PerformansTest {
 
     @Test
     void testPrintPerformans(){
-        assertTimeout(Duration.ofSeconds(2),
+        assertTimeout(Duration.ofSeconds(3),
                 ()-> IntStream.rangeClosed(1,100000).forEach(System.out::println));
         //IntStream.rangeClosed(1,100000) 1 den 100000 e kadar sayilari getirir
     }
